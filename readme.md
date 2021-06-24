@@ -12,11 +12,21 @@ The [Jarme](https://codepen.io/bintaparizat/pen/wvJLxyv) is designed to practice
 
 ##Visual Representation of my project :
 
-###Before Changing Background Color :
-![BeforeChanging](https://user-images.githubusercontent.com/43074604/123236823-f0b35b80-d4fe-11eb-9813-448c8fbd688d.PNG)
+## ###Screenshots from Web preview :
 
-###After being responsive :
-![AfterChanging](https://user-images.githubusercontent.com/43074604/123237047-235d5400-d4ff-11eb-829f-d108630ab766.PNG)
+<img width="1280" alt="1" src="https://user-images.githubusercontent.com/85831534/123262799-944d3d80-d4f8-11eb-94b9-90c5fc09108e.png">
+<img width="1280" alt="Screen Shot 2021-06-24 at 2 24 01 PM" src="https://user-images.githubusercontent.com/85831534/123262812-96af9780-d4f8-11eb-9520-678fd874c83e.png">
+<img width="1280" alt="Screen Shot 2021-06-24 at 2 24 06 PM" src="https://user-images.githubusercontent.com/85831534/123262821-99aa8800-d4f8-11eb-9599-3f57fa7a1bbe.png">
+
+---
+
+## ###Screenshots from mobile privew :
+
+<img width="1280" alt="Screen Shot 2021-06-24 at 2 24 25 PM" src="https://user-images.githubusercontent.com/85831534/123262833-9c0ce200-d4f8-11eb-96b9-2dcd2bf24129.png">
+<img width="1280" alt="5" src="https://user-images.githubusercontent.com/85831534/123262844-9dd6a580-d4f8-11eb-9a28-0970191a11bd.png">
+<img width="1280" alt="6" src="https://user-images.githubusercontent.com/85831534/123262859-a038ff80-d4f8-11eb-94fa-9f9a533a1f2f.png">
+<img width="1280" alt="7" src="https://user-images.githubusercontent.com/85831534/123262871-a333f000-d4f8-11eb-885a-163e68ab611e.png">
+<img width="1280" alt="8" src="https://user-images.githubusercontent.com/85831534/123262878-a4fdb380-d4f8-11eb-923b-b0075ea3be00.png">
 
 ## JavaScript
 
