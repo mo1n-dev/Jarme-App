@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: rgb(25, 1, 43);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 5px;
+}
+nav ul li a {
+  align-items: center;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  color: #111;
+  background: #fff;
+}
+.button {
+  background: rgb(10, 10, 49);
+  font-size: 18px;
+  color: white;
+  padding: 5px 10px;
+  border: 2px solid tomato;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: turquoise;
+}
+
+nav .menu-btn i {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"] {
+  display: none;
+}
+@media (max-width: 1000px) {
+  nav {
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i {
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+  nav ul {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  nav ul li {
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a {
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a {
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover {
+    background: none;
+    color: cyan;
+  }
+}
+
+.intro {
+  background: rgb(10, 10, 49);
+  background-image: url(https://jarmemori.es/assets/section-1-image.png);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 100px 30px;
+  width: 100%;
+}
+.intro h2 {
+  margin: 0;
+  color: white;
+}
+
+#jar {
+  color: #24c3b5;
+}
+
+#me {
+  color: #d90f57;
+}
+.intro p {
+  color: white;
+  font-family: sans-serif;
+}
+
+.intro h2 span {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.get {
+  background-color: #24c3b5;
+  margin-top: 30px;
+  padding: 16px 90px;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid rgb(9, 9, 114);
+}
+.get:hover {
+  background-color: rgb(10, 10, 49);
+}
+.download {
+  background-color: rgb(10, 10, 49);
+  margin-top: 30px;
+  padding: 16px 80px;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #d90f57;
+}
+
+.download:hover {
+  background-color: rgb(14, 14, 71);
+}
+.fb {
+  color: white;
+  padding-left: 20px;
+}
+.fa {
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+}
+.fa:hover {
+  transform: scale(1.3);
+}
+.twt {
+  color: white;
+}
+
+.fa-twitter {
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+}
+@media (max-width: 920px) {
+  .intro {
+    background-image: none;
+    text-align: center;
+  }
+  .intro h2 p {
+    text-align: center;
+  }
+}
+.sec_two_ini {
+  background-color: #2e2b4f;
+  width: 100%;
+  height: 650px;
+  display: flex;
+}
+
+.sec_two img {
+  width: 640px;
+  height: 309px;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+
+.sec_two_ini h3 {
+  color: white;
+  font-size: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.sec_two_ini p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.sec_three {
+  padding-top: 100px;
+}
+
+.links,
+img,
+.google_play {
+  background-color: transparent;
+  height: 40px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.store-link_one {
+  height: 40px;
+}
+@media (max-width: 920px) {
+  .sec_two img {
+    display: none;
+  }
+  .sec_two_ini {
+    text-align: center;
+    height: 60vh;
+  }
+}
+
+.sec_four {
+  background-color: #191e38;
+  height: 600px;
+  width: auto;
+  color: white;
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sec_four img {
+  width: auto;
+  height: 400px;
+  padding-left: 250px;
+}
+@media (max-width: 920px) {
+  .sec_four img {
+    display: none;
+  }
+  .sec_four {
+    width: 100%;
+    padding: 20px;
+    height: 60vh;
+  }
+  .sec_four_all_texts {
+    text-align: center;
+  }
+}
+
+.features {
+  background: rgb(23, 3, 37);
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  align-items: center;
+}
+.header-part {
+  justify-content: center;
+  align-items: flex-start;
+  width: 33%;
+  padding-left: 20px;
+}
+.box-content {
+  display: grid;
+  width: 67%;
+  height: 50%;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.icon {
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.search_text {
+  background-color: #313c4b;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid #313c4b;
+  font-family: sans-serif;
+}
+.search_text:hover {
+  background-color: #2e2b4f;
+}
+.statictics_text {
+  background-color: #38c172;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid #313c4b;
+  font-family: sans-serif;
+}
+.statictics_text:hover {
+  background-color: #2e2b4f;
+}
+.offline_text {
+  background-color: rgb(90, 90, 223);
+  padding: 10px 25px;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid rgb(90, 90, 223);
+  font-family: sans-serif;
+}
+.offline_text:hover {
+  background-color: #2e2b4f;
+}
+.calender_text {
+  background-color: #cb4e46;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid #cb4e46;
+  font-family: sans-serif;
+}
+
+.calender_text:hover {
+  background-color: #2e2b4f;
+}
+
+.passcode_text {
+  background-color: #233103;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid #233103;
+  font-family: sans-serif;
+}
+
+.passcode_text:hover {
+  background-color: #2e2b4f;
+}
+
+.jarmuseum_text {
+  background-color: #095f6e;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid #095f6e;
+  font-family: sans-serif;
+}
+
+.jarmuseum_text:hover {
+  background-color: #2e2b4f;
+}
+@media (max-width: 920px) {
+  .features {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .header-part {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  .box-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+  .icon {
+    margin-left: auto;
+    align-items: center;
+  }
+}
+.subs {
+  background: rgb(32, 7, 49);
+  color: white;
+  height: auto;
+}
+.text {
+  padding: 60px 0px;
+  text-align: center;
+  font-size: 30px;
+}
+.sub-box {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.non-paid {
+  background: tomato;
+  width: 300px;
+}
+.free {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid yellowgreen;
+}
+.free-ul li {
+  list-style: none;
+  padding: 10px 0;
+  text-align: left;
+  padding-left: 20px;
+}
+.free-ul p {
+  text-align: center;
+  padding: 5px 0px;
+  border-top: 1px solid paleturquoise;
+  cursor: pointer;
+}
+.yex-paid {
+  background-color: yellowgreen;
+  width: 300px;
+}
+.paid {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid tomato;
+}
+.paid-ul li {
+  list-style: none;
+  padding: 10px 0px;
+  text-align: left;
+  padding-left: 20px;
+}
+.paid-ul p {
+  text-align: center;
+  padding: 5px 0px;
+  border-top: 1px solid tomato;
+  cursor: pointer;
+}
+@media (max-width: 920px) {
+  .subs {
+    height: auto;
+    width: 100%;
+    font-size: 15px;
+  }
+  .sub-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .non-paid {
+    margin-bottom: 20px;
+  }
+}
+
+.footer_portion {
+  text-align: center;
+  margin-top: 5vh;
+  font-family: sans-serif;
+  width: 100%;
+  height: 10vh;
+}
+.facebook_two {
+  color: rgb(6, 6, 59);
+}
+.fa {
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+}
+.fa:hover {
+  color: blue;
+  transform: scale(1.3);
+}
+.twitter_two {
+  color: rgb(6, 6, 59);
+}
+
+.fa-twitter {
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+}
